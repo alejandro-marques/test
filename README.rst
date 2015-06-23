@@ -26,7 +26,6 @@ If you prefer to skip the unitary and integration tests, just type::
 
 Running the com.stratio.crossdata-server
 ========================================
-::
 
     > mvn exec:java -pl crossdata-server -Dexec.mainClass="com.stratio.crossdata.server.CrossdataApplication"
 
