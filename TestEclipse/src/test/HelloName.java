@@ -11,6 +11,7 @@ public class HelloName {
         System.out.println("Hello, what's your name?");
         String name = keyboard.nextLine();
 
+        // Capitalizes name
         name = name.substring(0,1).toUpperCase() + name.substring(1);
 
         System.out.println("Nice to meet you " + name);
