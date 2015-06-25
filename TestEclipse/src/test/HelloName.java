@@ -10,6 +10,9 @@ public class HelloName {
         // Asks for your name
         System.out.println("Hello, what's your name?");
         String name = keyboard.nextLine();
+
+        name = name.substring(0,1).toUpperCase() + name.substring(1);
+
         System.out.println("Nice to meet you " + name);
     }
 }
