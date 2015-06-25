@@ -2,9 +2,6 @@ package test;
 
 import java.util.Scanner;
 
-/**
- * Created by alejandro on 25/06/15.
- */
 public class HelloName {
     public static void main(String[] args) {
 
