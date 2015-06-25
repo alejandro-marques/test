@@ -1,4 +1,4 @@
 About
 *****
 
-This is a simple test
+This is a simple test to try git
