@@ -14,6 +14,7 @@ public class HelloName {
         // Capitalizes name
         name = name.substring(0,1).toUpperCase() + name.substring(1);
 
+        // Says "nice to meet you" using the given name
         System.out.println("Nice to meet you " + name);
     }
 }
